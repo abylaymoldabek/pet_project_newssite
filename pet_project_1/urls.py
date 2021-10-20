@@ -23,7 +23,6 @@ from news.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('news.urls')),
-
 ]
 
 if settings.DEBUG:
